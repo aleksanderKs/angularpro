@@ -1,0 +1,8 @@
+<p>
+  контакты
+</p>
+<div *ngFor="let datalist of nameContact | async">
+  <p> {{datalist.name}} </p>
+  <p> {{datalist.adress}} </p>
+  <p> {{datalist.phone}} </p>
+</div>

@@ -1,0 +1,36 @@
+.wrapper{
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+ nav a{
+   text-decoration: none;
+   /* text-align: center; */
+   display: block;
+   padding: 10px;
+ }
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a:hover{
+  background-color: #555;
+
+}
+
+@media screen and (min-width: 768px) {
+  nav ul{
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+nav li{
+
+}
+
+
+}
